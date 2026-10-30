@@ -1,0 +1,6 @@
+- id: 1
+  title: "SYNTHIA: the first AI band member that jams with you"
+  video_id: "Vhwi-pR9_wg"
+  thumbnail: "content/media/synthia-video.jpg"
+  timestamp: 0
+  description: "Our presentation at the Idiap Create Challenge 2025, which SYNTHIA won. A custom generative MIDI model plays along with you live."

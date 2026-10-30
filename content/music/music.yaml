@@ -1,0 +1,15 @@
+- id: rabiya-marine-hotel
+  title: "Rabiya Marine Hotel"
+  subtitle: "Gameboy System"
+  cover: "content/music/covers/gameboy-system.jpg"
+  links:
+    - label: "Spotify"
+      url: "https://open.spotify.com/album/3NOOift90ZXegpZ7zAfIwF"
+
+- id: a3di-bi-beirut
+  title: "A3di Bi Beirut"
+  subtitle: "Yara Barbar"
+  cover: "content/music/covers/a3di-bi-beirut.jpg"
+  links:
+    - label: "Anghami"
+      url: "https://open.anghami.com/HW7cnqJxv7b"

@@ -1,0 +1,31 @@
+- id: synthia
+  title: "SYNTHIA"
+  image: "content/projects/images/synthia.png"
+  url: "https://synthia.space"
+  summary: "AI that jams with you *live*! Three PhDs in AI who are also musicians (Fabio Fehr, Laurent Colbois, and myself) came up with the idea while making music in my home studio. SYNTHIA won first place and CHF 15,000 (the Idiap-IdeArk Prize) at the Idiap Create Challenge 2025, where we performed it live on stage. I work on code, product, design, and sound. Today, synthia.space is a collection of musical experiments:"
+  children:
+    - title: "Beat Cuisine"
+      url: "https://synthia.space/cuisine"
+      image: "content/projects/images/beat-cuisine-screenshot.jpg"
+      summary: "Cook a beat in the browser: pick patterns, set the BPM and key, and record loops like a pedal. Jam with Sue, the AI sous chef: you play a loop and Sue plays one back."
+    - title: "Beat Gallery"
+      url: "https://synthia.space/gallery"
+      image: "content/projects/images/beat-gallery-screenshot.jpg"
+      summary: "Publish your beats and browse what others cooked."
+    - title: "Riffdle"
+      url: "https://synthia.space/riffdle"
+      image: "content/projects/images/riffdle-screenshot.jpg"
+      summary: "Wordle for music: listen to the riff, play it back on the keyboard, and get clues on each note."
+
+- id: aswat
+  title: "Aswat"
+  image: "content/projects/images/aswat.png"
+  url: "https://aswat.ai"
+  summary: "The first text-to-speech system for the Lebanese Arabic dialect. I trained it on speech I recorded myself in my studio, and use style conversion to create fun and distinctive voices. Type in Lebanese Arabizi and pick a voice. New improved version coming soon!"
+
+- id: kortex
+  title: "Kortex"
+  image: "content/projects/images/kortex.png"
+  image_invert: false
+  badge: "Coming soon"
+  summary: "A locally hosted second brain and agent console. It runs on a local server and serves a dashboard, reachable from any device, for directing coding agents across machines, managing todos and documents, and searching everything in one place. Open source soon."
