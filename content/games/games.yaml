@@ -1,0 +1,26 @@
+- id: arrow
+  title: "Arrow Arena"
+  year: 2018
+  url: "https://karlhajal.com/Arrow/"
+  description: "Top-down arena game with an A* pathfinding enemy."
+  controls:
+    - "WASD to move."
+    - "Left click or G to attack. Hold to charge."
+    - "Right click or Left Shift to lock your direction."
+
+- id: pillars
+  title: "Pillars"
+  year: 2017
+  url: "https://karlhajal.com/Pillars/"
+  description:
+    - "A local 1v1 multiplayer game."
+    - "Made for a game jam with Elie Maamary."
+  controls:
+    - "Player 1: WASD to move. G or left click shoots a fireball (hold to charge it). Left Shift locks your direction."
+    - "Player 2: arrow keys to move. L shoots a fireball (hold to charge it). Right Alt locks your direction."
+
+- id: dlx-sudoku
+  title: "DLX Sudoku Solver"
+  year: 2017
+  url: "https://karlhajal.com/DLX-Sudoku-Solver/"
+  description: "Solves sudoku with Knuth's Algorithm X and Dancing Links."

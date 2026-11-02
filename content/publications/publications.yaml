@@ -1,0 +1,45 @@
+- id: 1
+  title: 'OLIVE: View-Augmented Latent Prediction with Waveform Reconstruction for Speech SSL'
+  image: content/publications/files/olive.png
+  authors: Karl El Hajal, Mathew Magimai-Doss
+  conference: Under review
+  paper: https://arxiv.org/abs/2606.30356
+- id: 2
+  title: Concatenative Neural Speech Synthesis
+  image: content/publications/files/slt-concatenative.png
+  authors: Karl El Hajal, Sanat Kumar Agrawal, Enno Hermann, Mathew Magimai-Doss
+  venue: IEEE Spoken Language Technology Workshop
+  conference: SLT 2026
+  paper: https://publications.idiap.ch/attachments/papers/2026/ElHajal_IEEESLT_2026.pdf
+  demo: https://karlhajal.com/NeuralConcatTTS/
+- id: 3
+  title: kNN Retrieval for Simple and Effective Zero-Shot Multi-speaker Text-to-Speech
+  image: content/publications/files/knn-tts.png
+  authors: Karl El Hajal, Ajinkya Kulkarni, Enno Hermann, Mathew Magimai-Doss
+  venue: Annual Conference of the Nations of the Americas Chapter of the ACL (Short Papers)
+  conference: NAACL 2025
+  paper: https://aclanthology.org/2025.naacl-short.65
+  code: https://github.com/idiap/knn-tts
+  demo: https://karlhajal-knn-tts.hf.space
+- id: 4
+  title: Unsupervised Rhythm and Voice Conversion to Improve ASR on Dysarthric Speech
+  image: content/publications/files/rnv-interspeech.png
+  authors: Karl El Hajal, Enno Hermann, Sevada Hovsepyan, Mathew Magimai-Doss
+  venue: Interspeech
+  conference: Interspeech 2025
+  paper: https://arxiv.org/abs/2506.01618
+  code: https://github.com/idiap/RnV
+- id: 5
+  title: Efficient Speech Quality Assessment Using Self-Supervised Framewise Embeddings
+  image: content/publications/files/sqa-icassp.png
+  authors: Karl El Hajal, Zihan Wu, Neil Scheidwasser-Clow, Gasser Elbanna, Milos Cernak
+  venue: IEEE International Conference on Acoustics, Speech and Signal Processing
+  conference: ICASSP 2023 (Top 3% paper recognition)
+  paper: https://arxiv.org/abs/2211.06646
+- id: 6
+  title: 'MOSRA: Joint Mean Opinion Score and Room Acoustics Speech Quality Assessment'
+  image: content/publications/files/mosra.png
+  authors: Karl El Hajal, Milos Cernak, Pablo Mainar
+  venue: Interspeech
+  conference: Interspeech 2022
+  paper: https://arxiv.org/abs/2204.01345

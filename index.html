@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="page-title">Karl El Hajal</title>
+    <meta name="description" content="Karl El Hajal is a PhD student at EPFL and the Idiap Research Institute working on pathological speech synthesis, voice conversion, and self-supervised speech representations.">
+    
+    <meta property="og:title" content="Karl El Hajal" />
+    <meta property="og:description" content="PhD student at EPFL and Idiap working on speech synthesis, voice conversion, and pathological speech." />
+    <meta property="og:url" content="https://karlhajal.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://karlhajal.com/og-image.jpg" />
+    <meta property="og:image:alt" content="Karl El Hajal, PhD student at EPFL and Idiap" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://karlhajal.com/og-image.jpg" />
+    <link rel="canonical" href="https://karlhajal.com/">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Karl El Hajal",
+      "url": "https://karlhajal.com/",
+      "image": "https://karlhajal.com/content/site/profile_picture.jpg",
+      "jobTitle": "PhD student",
+      "affiliation": [
+        {"@type": "Organization", "name": "Idiap Research Institute", "url": "https://www.idiap.ch/"},
+        {"@type": "Organization", "name": "EPFL", "url": "https://www.epfl.ch/"}
+      ],
+      "alumniOf": [
+        {"@type": "CollegeOrUniversity", "name": "EPFL"},
+        {"@type": "CollegeOrUniversity", "name": "American University of Beirut"}
+      ],
+      "knowsAbout": ["speech synthesis", "voice conversion", "pathological speech", "self-supervised speech representations", "spoken language models", "speech quality assessment"],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=EzN7CNAAAAAJ",
+        "https://www.linkedin.com/in/karlhajal/",
+        "https://github.com/KarlHajal",
+        "https://orcid.org/0000-0003-3128-335X"
+      ]
+    }
+    </script>
+    <link rel="preload" href="fonts/playfair-display-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="favicon-64.png" sizes="64x64" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/console.css">
+</head>
+<body>
+    <div id="top"></div>
+    
+    <main>
+        <header class="header">
+            <a href="#top" class="name-link">
+                <div class="name" id="site-name">Karl El Hajal</div>
+            </a>
+            <nav class="nav-links" id="nav-links"></nav>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Open the menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+        </header>
+
+        <section class="profile-section">
+            <div class="profile-container">
+                <aside class="profile-sidebar">
+                    <div class="profile-image">
+                        <img id="profile-img" src="content/site/profile_picture.jpg" alt="Portrait of Karl El Hajal">
+                        <div class="nationality-flags" id="nationality-flags"></div>
+                    </div>
+                    <div class="profile-role">
+                        <p class="role-title" id="role-title">PhD Student</p>
+                        <p class="role-affiliation" id="role-affiliation">EPFL and Idiap Research Institute</p>
+                    </div>
+                    <div class="profile-socials" id="profile-socials"></div>
+                </aside>
+                
+                <div class="profile-text" id="profile-content">
+                    <p>Karl El Hajal is a PhD student in Electrical Engineering at EPFL, based at the Idiap Research Institute in Martigny, Switzerland. His thesis is on pathological speech synthesis.</p>
+                    <noscript><p>This page needs JavaScript to list publications, projects, and experience. The <a href="content/site/Karl_El_Hajal_CV.pdf">CV</a> has the same information.</p></noscript>
+                </div>
+            </div>
+        </section>
+        <div class="section-header">
+            <h1 id="timeline-heading">Experience</h1>
+        </div>
+        <section id="timeline" class="timeline-section">
+            <div id="timeline-list" class="timeline-container"></div>
+        </section>
+
+        <div class="section-header">
+            <h1 id="publications-heading">Selected publications</h1>
+            <p class="publications-note"></p>
+        </div>
+
+        <section id="pubs" class="publications">
+            <div id="publications-list"></div>
+            <div class="pub-toggle-row"><button id="pub-toggle" class="pub-button" type="button" hidden></button></div>
+        </section>
+
+        <div class="section-header" data-section="projects">
+            <h1 id="projects-heading">Projects</h1>
+        </div>
+        <section id="projects" class="publications" data-section="projects">
+            <div id="projects-list"></div>
+        </section>
+
+        <div class="section-header" data-section="media">
+            <h1 id="media-heading">Highlights</h1>
+        </div>
+        <section id="media" class="media-section" data-section="media">
+            <div id="media-list" class="media-grid"></div>
+        </section>
+
+        <div class="section-header" data-section="music">
+            <h1 id="music-heading">Original music</h1>
+            <p class="music-intro">Contributed to songwriting for:</p>
+        </div>
+        <section id="music" class="music-section" data-section="music">
+            <div id="music-list" class="music-list-row"></div>
+            <p class="music-outro">New original music coming soon.</p>
+        </section>
+
+        <div class="section-header">
+            <h1 id="games-heading">Games</h1>
+            <p class="games-intro">Games I made for fun early on to learn how to code, and how to make pixel art, sprites, and animations from scratch.</p>
+        </div>
+        <section id="games" class="games-section">
+            <div id="games-list"></div>
+        </section>
+
+        <div class="section-header" data-section="blog">
+            <h1 id="blog-heading">Writing</h1>
+            <p id="blog-subtitle" class="blog-subtitle"></p>
+        </div>
+        <section id="blog" class="blog-section" data-section="blog">
+            <div id="blog-list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="margin-top: 8px; font-size: 0.9em;">&copy; <span id="footer-year">2026</span> <span id="footer-name">Karl El Hajal</span> • <a href="https://github.com/FJFehr/fjfehr.github.io/" id="footer-license" target="_blank" rel="noopener noreferrer">Template by Fabio J. Fehr</a></p>
+    </footer>
+
+    <script src="js/js-yaml.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/console.js"></script>
+</body>
+</html>

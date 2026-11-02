@@ -1,0 +1,92 @@
+- id: "idiap-phd"
+  type: "work"
+  title: "PhD Student"
+  organization: "EPFL and Idiap Research Institute"
+  location: "Martigny, Switzerland"
+  start_date: "2024-03"
+  end_date: "present"
+  description: |
+    **PhD in Electrical Engineering** at [EPFL](https://www.epfl.ch/), based at the [Idiap Research Institute](https://www.idiap.ch/) and supervised by Dr. Mathew Magimai-Doss (expected 2028). Developed and published low-resource and efficient methods for zero-shot TTS and unsupervised voice conversion, and improved ASR for speakers with more severe dysarthria. Trained novel speech representation models for joint speech analysis and synthesis. Researching pathological speech synthesis to address scarce clinical data.
+  logos:
+    - logo: "content/timeline/logos/epfl.svg"
+      url: "https://www.epfl.ch/"
+      alt: "EPFL"
+    - logo: "content/timeline/logos/idiap.svg"
+      url: "https://www.idiap.ch/"
+      alt: "Idiap Research Institute"
+
+- id: "idiap-ra"
+  type: "work"
+  title: "Research Assistant"
+  organization: "Idiap Research Institute"
+  location: "Martigny, Switzerland"
+  url: "https://www.idiap.ch/"
+  start_date: "2023-03"
+  end_date: "2024-03"
+  description: |
+    **Research Assistant** at [Idiap Research Institute](https://www.idiap.ch/). Worked on a production multilingual, multi-speaker emotional TTS system. Benchmarked models and studied code-switching and context-dependent text normalization for French, German, and Italian.
+  logo: "content/timeline/logos/idiap.svg"
+
+- id: "logitech"
+  type: "work"
+  title: "Audio Machine Learning Research Intern"
+  organization: "Logitech"
+  location: "Lausanne, Switzerland"
+  url: "https://www.logitech.com/"
+  start_date: "2021-08"
+  end_date: "2022-08"
+  description: |
+    **Audio Machine Learning Research Intern** at Logitech. Developed MOSRA for joint speech quality and room acoustics assessment; combined with BYOL-S it cut model size by 40-60x and latency by 30x against a leading baseline. Built PyTorch pipelines for multimodal affective computing across speech, video, and language, which led to Interspeech and ICASSP papers.
+  logo: "content/timeline/logos/logitech.svg"
+  logo_dark: "content/timeline/logos/logitech-dark.svg"
+
+- id: "epfl-msc"
+  type: "education"
+  title: "MSc in Electrical and Electronic Engineering"
+  organization: "EPFL"
+  location: "Lausanne, Switzerland"
+  url: "https://www.epfl.ch/"
+  start_date: "2020-09"
+  end_date: "2022-09"
+  description: |
+    **MSc in Electrical and Electronic Engineering**, EPFL (Swiss Federal Institute of Technology Lausanne). Final grade 5.57/6.00. Master thesis (6/6): *Personalized Video Communication Quality Assessment*, supervised by Prof. Jean-Marc Odobez and Dr. Milos Cernak.
+  logo: "content/timeline/logos/epfl.svg"
+
+- id: "murex"
+  type: "work"
+  title: "Full-time Software Engineer, C/C++"
+  organization: "Murex"
+  location: "Beirut, Lebanon"
+  url: "https://www.murex.com/"
+  start_date: "2019-06"
+  end_date: "2020-09"
+  description: |
+    **Full-time Software Engineer, C/C++** at Murex. Developed and tested a parallel real-time graph engine for financial models, modernized legacy C code, expanded test coverage, and served as Scrum Master.
+  logo: "content/timeline/logos/murex.svg"
+  logo_dark: "content/timeline/logos/murex-dark.svg"
+
+- id: "uiuc"
+  type: "work"
+  title: "Visiting Research Intern"
+  organization: "University of Illinois Urbana-Champaign"
+  location: "Urbana, IL, USA"
+  url: "https://illinois.edu/"
+  start_date: "2018-06"
+  end_date: "2018-09"
+  description: |
+    **Visiting Research Intern** at the University of Illinois Urbana-Champaign. Researched the effectiveness of runtime monitoring for formal verification using JavaMOP.
+  logo: "content/timeline/logos/uiuc.svg"
+  logo_dark: "content/timeline/logos/uiuc-dark.svg"
+
+- id: "aub-bsc"
+  type: "education"
+  title: "BE in Computer and Communications Engineering"
+  organization: "American University of Beirut"
+  location: "Beirut, Lebanon"
+  url: "https://www.aub.edu.lb/"
+  start_date: "2015-09"
+  end_date: "2019-06"
+  description: |
+    **BE in Computer and Communications Engineering**, American University of Beirut, with distinction (major GPA 3.97/4.00). Visiting student at UC Berkeley in 2017 (Software Engineering).
+  logo: "content/timeline/logos/aub.png"
+  logo_dark: "content/timeline/logos/aub-dark.png"
