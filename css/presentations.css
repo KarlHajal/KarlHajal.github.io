@@ -1,0 +1,52 @@
+.presentations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 180px));
+    justify-content: center;
+    gap: 40px 32px;
+    max-width: var(--maxw);
+    margin: 40px auto 80px;
+    padding: 0 var(--padding-horizontal);
+}
+
+.presentation-link {
+    display: block;
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: center;
+}
+
+.presentation-link img {
+    display: block;
+    width: 128px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.presentation-link h2 {
+    margin: 10px 0 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.45;
+}
+
+.presentation-link:hover h2 {
+    color: var(--link-color);
+}
+
+.presentation-link:focus-visible {
+    outline: 3px solid var(--link-color);
+    outline-offset: 6px;
+    border-radius: 8px;
+}
+
+@media (max-width: 720px) {
+    .presentations-grid {
+        margin-top: 28px;
+        margin-bottom: 48px;
+        gap: 32px 20px;
+    }
+}
