@@ -27,7 +27,11 @@ layout:
         href: "#games-heading"
       - label: "CV"
         href: "{{cv_path}}"
+        group: "destinations"
         is_external: true
+      - label: "Presentations"
+        href: "/presentations/"
+        group: "destinations"
 
   sections:
     projects:
