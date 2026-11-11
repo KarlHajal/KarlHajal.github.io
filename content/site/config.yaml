@@ -155,9 +155,12 @@ design:
       margin_top: 16px
 
   colors:
-    active_palette: "violet"
+    active_palette: "pigment"
 
     palettes:
+      pigment:
+        light: { link: "#2b3678", hover: "#e2e5f4" }
+        dark: { link: "#9aa8f0", hover: "#2d344c" }
       indigo:
         light: { link: "#4f46e5", hover: "#e0e7ff" }
         dark:  { link: "#818cf8", hover: "#2d2a5e" }

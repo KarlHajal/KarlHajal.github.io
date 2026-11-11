@@ -1,0 +1,70 @@
+/* Keep the original typography and layout while using Kortex's Pigment palette. */
+:root {
+    --blue: #7f8fd6;
+    --coral: #e07a7f;
+    --palette-light-link: #2b3678;
+    --palette-light-hover: #e2e5f4;
+    --palette-dark-link: #9aa8f0;
+    --palette-dark-hover: #2d344c;
+}
+
+:root,
+html[data-theme='light'] {
+    --paper: #f2f2f4;
+    --surface: #ffffff;
+    --surface-sunk: #e8e8eb;
+    --ink: #2a2e35;
+    --ink-soft: #5e636d;
+    --ink-faint: #8e929a;
+    --line: rgb(42 46 53 / 0.1);
+    --line-strong: rgb(42 46 53 / 0.18);
+    --coral-strong: #8f2230;
+    --blue-strong: #2b3678;
+    --bg-color: var(--paper);
+    --input-bg: var(--surface);
+    --text-color: var(--ink);
+    --muted-color: var(--ink-soft);
+    --border-color: var(--line);
+    --link-color: var(--blue-strong);
+    --hover-bg: color-mix(in srgb, var(--blue) 14%, var(--surface));
+    --accent-color: var(--coral-strong);
+    --accent-hover: color-mix(in srgb, var(--coral) 18%, var(--surface));
+    color-scheme: light;
+}
+
+html[data-theme='dark'] {
+    --paper: #16181d;
+    --surface: #1f2229;
+    --surface-sunk: #121418;
+    --ink: #eceef1;
+    --ink-soft: #a9adb6;
+    --ink-faint: #777c86;
+    --line: rgb(255 255 255 / 0.08);
+    --line-strong: rgb(255 255 255 / 0.16);
+    --coral-strong: #f08a8f;
+    --blue-strong: #9aa8f0;
+    --bg-color: var(--paper);
+    --input-bg: var(--surface);
+    --text-color: var(--ink);
+    --muted-color: var(--ink-soft);
+    --border-color: var(--line);
+    --link-color: var(--blue-strong);
+    --hover-bg: color-mix(in srgb, var(--blue) 14%, var(--surface));
+    --accent-color: var(--coral-strong);
+    --accent-hover: color-mix(in srgb, var(--coral) 18%, var(--surface));
+    color-scheme: dark;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--blue-strong);
+    outline-offset: 3px;
+}
+
+::selection {
+    background: color-mix(in srgb, var(--blue) 45%, transparent);
+}
+
+html[data-theme='dark'] .social-link[href*='github.com/'] .social-icon-img {
+    filter: invert(1);
+}
